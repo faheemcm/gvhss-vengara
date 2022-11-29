@@ -82,6 +82,10 @@ p{
 .hidden{
 	display:none;
 }
+li.hidden {
+	visibility: hidden;
+	display: none;
+}
 br.clear {
 	clear: both;
 	line-height: 0;
@@ -700,6 +704,7 @@ footer div.bottom span a:hover {
 }
 #jsd_team div.head span {
 	font-size: 24px;
+	color: #000;
 }
 #jsd_team div.profiles {
 	padding-top: 100px;
