@@ -682,6 +682,78 @@ footer div.bottom span a:hover {
 }
 #not-found a.button {}
 
+#jsd_team {
+	background: url(../images/jsd_team.png) no-repeat;
+	background-size: contain;
+}
+#jsd_team .wrapper {}
+#jsd_team div.head {
+	padding-top: 35%;
+	margin: 0 auto;
+	text-align: center;
+}
+#jsd_team div.head h2 {
+	font-size: 42px;
+	font-family: 'poppins-semibold';
+	color: #000;
+	margin-bottom: 12px;
+}
+#jsd_team div.head span {
+	font-size: 24px;
+}
+#jsd_team div.profiles {
+	padding-top: 100px;
+}
+#jsd_team div.profiles h3 {
+	font-size: 32px;
+	font-family: 'poppins-medium';
+	color: #474b84;
+	margin-bottom: 8px;
+}
+#jsd_team div.profiles hr {
+	width: 100%;
+	border-bottom: 3px solid #474b84;
+}
+#jsd_team div.profiles ul {
+	padding: 40px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#jsd_team div.profiles ul li {
+	width: 32%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 24px;
+	background: #f0f0f0;
+	padding: 20px;
+	border-radius: 8px;
+	transition: 0.3s;
+	color: #000;
+}
+#jsd_team div.profiles ul li:hover {
+	background: #8399ff;
+	color: #fff;
+}
+#jsd_team div.profiles ul li div.left {
+	width: 80px;
+	border-radius: 50%;
+}
+#jsd_team div.profiles ul li div.left img {
+	width: 100%;
+	display: block;
+	border-radius: 50%;
+}
+#jsd_team div.profiles ul li div.right {
+	margin-left: 12px;
+}
+#jsd_team div.profiles ul li div.right h4 {
+	font-size: 18px;
+	margin-bottom: 8px;
+	font-family: 'poppins-medium';
+}
+
 @media all and (max-width: 1080px) {
 	#courses ul {
 		flex-wrap: wrap;
@@ -739,7 +811,8 @@ footer div.bottom span a:hover {
 		width:400px!important;
 		height:400px!important;
 	}
-	#contact div.form {
+	#jsd_team div.profiles ul li {
+		width: 48%;
 	}
 }
 @media all and (max-width: 768px) {
@@ -785,6 +858,18 @@ footer div.bottom span a:hover {
 	footer div.top ul {
 		width: 40%;
 	}
+	#jsd_team div.head h2 {
+		font-size: 32px;
+	}
+	#jsd_team div.head span {
+		font-size: 18px;
+	}
+	#jsd_team div.profiles ul li div.left {
+		width: 60px;
+	}
+	#jsd_team div.profiles ul li div.right h4 {
+		font-size: 16px;
+	}
 }
 @media all and (max-width: 640px) {
 	#spotlight div.content h1 {
@@ -808,9 +893,9 @@ footer div.bottom span a:hover {
 	#nss div.left p {
 		font-size: 14px;
 	}
-	
-
-	
+	#jsd_team div.profiles ul li {
+		width: 100%;
+	}
 }
 @media all and (max-width: 480px) {
 	#spotlight div.content h1 {
@@ -837,6 +922,12 @@ footer div.bottom span a:hover {
 		left: 400px;
 		top: 40px;
 		filter: none;
+	}
+	#jsd_team div.head h2 {
+		font-size: 28px;
+	}
+	#jsd_team div.head span {
+		font-size: 16px;
 	}
 }
 @media all and (max-width: 445px) {
